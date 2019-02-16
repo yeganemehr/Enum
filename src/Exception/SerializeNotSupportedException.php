@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Enum\Exception;
+namespace packages\Enum\Exception;
 
 use Exception;
 

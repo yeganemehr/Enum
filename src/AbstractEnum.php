@@ -1,13 +1,13 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Enum;
+namespace packages\Enum;
 
-use DASPRiD\Enum\Exception\CloneNotSupportedException;
-use DASPRiD\Enum\Exception\IllegalArgumentException;
-use DASPRiD\Enum\Exception\MismatchException;
-use DASPRiD\Enum\Exception\SerializeNotSupportedException;
-use DASPRiD\Enum\Exception\UnserializeNotSupportedException;
+use packages\Enum\Exception\CloneNotSupportedException;
+use packages\Enum\Exception\IllegalArgumentException;
+use packages\Enum\Exception\MismatchException;
+use packages\Enum\Exception\SerializeNotSupportedException;
+use packages\Enum\Exception\UnserializeNotSupportedException;
 use ReflectionClass;
 
 abstract class AbstractEnum

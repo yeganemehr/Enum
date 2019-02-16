@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Enum;
+namespace packages\Enum;
 
-use DASPRiD\Enum\Exception\ExpectationException;
-use DASPRiD\Enum\Exception\IllegalArgumentException;
+use packages\Enum\Exception\ExpectationException;
+use packages\Enum\Exception\IllegalArgumentException;
 use IteratorAggregate;
 use Serializable;
 use Traversable;
